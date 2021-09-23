@@ -33,5 +33,14 @@
     <ClCompile Include="210923_1단계_하샤드수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="210924_1단계_콜라츠 추측.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="210924_1단계_최대공약수_최소공배수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="210924_1단계_짝수홀수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
