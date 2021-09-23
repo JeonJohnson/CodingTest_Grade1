@@ -1,5 +1,4 @@
 #include <iostream>
-#include <stdio.h>
 //1905 start
 //1912 end
 //pass
