@@ -42,5 +42,8 @@
     <ClCompile Include="210924_1단계_짝수홀수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="210924_1단계_제일작은수제거하기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
