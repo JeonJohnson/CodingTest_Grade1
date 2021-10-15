@@ -19,6 +19,9 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
+    <Filter Include="211015">
+      <UniqueIdentifier>{d82ba0ac-06c2-4a5c-bf38-a3d0e7787079}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="소스.cpp">
@@ -53,6 +56,15 @@
     </ClCompile>
     <ClCompile Include="210924_1단계_정수제곱근판별.cpp">
       <Filter>210924</Filter>
+    </ClCompile>
+    <ClCompile Include="211015_1단계_정수오름차순나열.cpp">
+      <Filter>211015</Filter>
+    </ClCompile>
+    <ClCompile Include="211015_1단계_정수리버스.cpp">
+      <Filter>211015</Filter>
+    </ClCompile>
+    <ClCompile Include="211015_1단계_자릿수더하기.cpp">
+      <Filter>211015</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
