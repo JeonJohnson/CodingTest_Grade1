@@ -22,6 +22,9 @@
     <Filter Include="211015">
       <UniqueIdentifier>{d82ba0ac-06c2-4a5c-bf38-a3d0e7787079}</UniqueIdentifier>
     </Filter>
+    <Filter Include="211016">
+      <UniqueIdentifier>{0d6672d4-0382-47ba-939d-3cddf2f8b1b0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="소스.cpp">
@@ -65,6 +68,12 @@
     </ClCompile>
     <ClCompile Include="211015_1단계_자릿수더하기.cpp">
       <Filter>211015</Filter>
+    </ClCompile>
+    <ClCompile Include="211016_1단계_이상한문자만들기.cpp">
+      <Filter>211016</Filter>
+    </ClCompile>
+    <ClCompile Include="211016_1단계_약수의 합.cpp">
+      <Filter>211016</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
