@@ -1,6 +1,6 @@
-//Start Time	: 1710
+ï»¿//Start Time	: 1710
 //End Time		: 1736
-//Åë°ú À¯¹Â		: 2¹ø ºÒÅë ÈÄ Åë°ú
+//í†µê³¼ ìœ ë®¤		: 2ë²ˆ ë¶ˆí†µ í›„ í†µê³¼
 
 #include <iostream>
 #include <vector>
@@ -12,12 +12,12 @@ using namespace std;
 
 string MySolution(string s) 
 {
-	//¾Æ½ºÅ° ÄÚµå ±âÁØ
-	//¼Ò¹®ÀÚ a ~ z => 97~122
-	//´ë¹®ÀÚ A ~ Z => 65~90
-	//Áï µÑÀº 32¾¿ Â÷ÀÌ°¡ ³².
-	//±×·¯´Ï±î ÀÏ´Ü ¼Ò/´ë¹®ÀÚ È®ÀÎÀ» ÇÑ µÚ¿¡ 
-	//»©ÁÖ¸é µÈ´Ù. ÀÌ¸»ÀÌ¾ß
+	//ì•„ìŠ¤í‚¤ ì½”ë“œ ê¸°ì¤€
+	//ì†Œë¬¸ìž a ~ z => 97~122
+	//ëŒ€ë¬¸ìž A ~ Z => 65~90
+	//ì¦‰ ë‘˜ì€ 32ì”© ì°¨ì´ê°€ ë‚¨.
+	//ê·¸ëŸ¬ë‹ˆê¹Œ ì¼ë‹¨ ì†Œ/ëŒ€ë¬¸ìž í™•ì¸ì„ í•œ ë’¤ì— 
+	//ë¹¼ì£¼ë©´ ëœë‹¤. ì´ë§ì´ì•¼
 
 	string answer = s;
 
@@ -65,12 +65,12 @@ string OtherSolution(string s) {
 		}
 		else
 		{
-			// È¦¼ö Â¦¼ö ±¸ºÐ ÇÒ ¶§ 1°ú and ºñÆ®¿¬»ê½Ã
-			// È¦¼ö´Â ÂüÀÌ°í Â¦¼ö´Â °ÅÁþÀÌ ³ª¿Â´Ù.
-			// È¦¼ö´Â ÀÌÁø¼ö·Î º¯°æ½Ã ¹«Àû±Ç ¸¶Áö¸· 1ÀÌ ³ª¿À±â ¶§¹®¿¡
+			// í™€ìˆ˜ ì§ìˆ˜ êµ¬ë¶„ í•  ë•Œ 1ê³¼ and ë¹„íŠ¸ì—°ì‚°ì‹œ
+			// í™€ìˆ˜ëŠ” ì°¸ì´ê³  ì§ìˆ˜ëŠ” ê±°ì§“ì´ ë‚˜ì˜¨ë‹¤.
+			// í™€ìˆ˜ëŠ” ì´ì§„ìˆ˜ë¡œ ë³€ê²½ì‹œ ë¬´ì ê¶Œ ë§ˆì§€ë§‰ 1ì´ ë‚˜ì˜¤ê¸° ë•Œë¬¸ì—
 			nIndex & 1 ? answer += toupper(s[i]) : answer += tolower(s[i]);
-			//toupper => ¼Ò¹®ÀÚ¸¦ ´ë¹®ÀÚ·Î ¹Ù²ãÁÖ°í ±× ¾Æ½ºÅ° ÄÚµå °ª ¹ÝÈ¯
-			//tolower => ´ë¹®ÀÚ¸¦ ¼Ò¹®ÀÚ·Î ¹Ù²ãÁÖ°í ±× ¾Æ½ºÅ° ÄÚµå °ª ¹ÝÈ¯
+			//toupper => ì†Œë¬¸ìžë¥¼ ëŒ€ë¬¸ìžë¡œ ë°”ê¿”ì£¼ê³  ê·¸ ì•„ìŠ¤í‚¤ ì½”ë“œ ê°’ ë°˜í™˜
+			//tolower => ëŒ€ë¬¸ìžë¥¼ ì†Œë¬¸ìžë¡œ ë°”ê¿”ì£¼ê³  ê·¸ ì•„ìŠ¤í‚¤ ì½”ë“œ ê°’ ë°˜í™˜
 		}
 	}
 

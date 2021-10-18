@@ -1,7 +1,7 @@
-//Start Time	: 1958
-//Áß°£¿¡ Ä¡Å² °í¹ÎÇÏ´Ù 2020 ½ÃÀÛ
+ï»¿//Start Time	: 1958
+//ì¤‘ê°„ì— ì¹˜í‚¨ ê³ ë¯¼í•˜ë‹¤ 2020 ì‹œìž‘
 //End Time		: 2037
-//Åë°ú À¯¹Â		: 1¹ø ¿À´äÈÄ Åë°ú
+//í†µê³¼ ìœ ë®¤		: 1ë²ˆ ì˜¤ë‹µí›„ í†µê³¼
 
 #include <iostream>
 #include <vector>
@@ -40,13 +40,13 @@ vector<int> OtherSolution(long long n)
 
 	while (n)
 	{
-		//1) 10ÀÇ ³ª¸ÓÁö ±¸ÇÏ±â
+		//1) 10ì˜ ë‚˜ë¨¸ì§€ êµ¬í•˜ê¸°
 		answer.emplace_back(n % 10);
-		// ÀÌ·¯¸é ¸¶Áö¸· ÀÚ¸®¼ö¸¸ ±¸ÇÒ ¼ö ÀÖÀ½.
+		// ì´ëŸ¬ë©´ ë§ˆì§€ë§‰ ìžë¦¬ìˆ˜ë§Œ êµ¬í•  ìˆ˜ ìžˆìŒ.
 
-		//2) 10À¸·Î ³ª´²¹úÀÌ±â
+		//2) 10ìœ¼ë¡œ ë‚˜ëˆ ë²Œì´ê¸°
 		n /= 10;
-		//¹æ±Ý °è»êÇÑ ¸¶Áö¸· ÀÚ¸®¼ö ¾ø¾Ö¹ö¸®´Â °Í.
+		//ë°©ê¸ˆ ê³„ì‚°í•œ ë§ˆì§€ë§‰ ìžë¦¬ìˆ˜ ì—†ì• ë²„ë¦¬ëŠ” ê²ƒ.
 
 	}
 	return answer;

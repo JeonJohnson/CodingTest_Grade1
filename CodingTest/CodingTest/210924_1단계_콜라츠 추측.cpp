@@ -1,6 +1,6 @@
-//Start Time	: 0710
+ï»¿//Start Time	: 0710
 //End Time		: 0725
-//Åë°ú À¯¹Â		: pass
+//í†µê³¼ ìœ ë®¤		: pass
 
 #include <iostream>
 #include <vector>
@@ -12,16 +12,16 @@ int solution(int num)
 	int answer = 0;
 
 	long long llNum = num;
-	//°öÇÏ±â 3ÀÌ µé¾î°¡´Ùº¸´Ï Å« ¼ıÀÚ µé¾î°¡¸é °¡²û ¿À¹öÇÃ·Î ÅÍÄ§
+	//ê³±í•˜ê¸° 3ì´ ë“¤ì–´ê°€ë‹¤ë³´ë‹ˆ í° ìˆ«ì ë“¤ì–´ê°€ë©´ ê°€ë” ì˜¤ë²„í”Œë¡œ í„°ì¹¨
 
 	while (llNum != 1)
 	{
 		if (llNum % 2 == 0)
-		{//Â¦¼ö
+		{//ì§ìˆ˜
 			llNum /= 2;
 		}
 		else 
-		{//È¦¼ö 
+		{//í™€ìˆ˜ 
 			llNum *= 3;
 			++llNum;
 		}

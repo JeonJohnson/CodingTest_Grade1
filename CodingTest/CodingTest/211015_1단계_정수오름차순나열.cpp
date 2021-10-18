@@ -1,6 +1,6 @@
-//Start Time	: 1800
+ο»Ώ//Start Time	: 1800
 //End Time		: 1837
-//Ελ°ϊ ΐ―ΉΒ		: 2ΉψΐΗ ΏΐΕΎ ΘΔ Ελ°ϊ
+//ν†µκ³Ό μ λ®¤		: 2λ²μ μ¤νƒ‘ ν›„ ν†µκ³Ό
 
 #include <iostream>
 #include <vector>

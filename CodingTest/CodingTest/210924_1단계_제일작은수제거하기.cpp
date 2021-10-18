@@ -1,6 +1,6 @@
-//Start Time	: 1913
+ο»Ώ//Start Time	: 1913
 //End Time		: 1930
-//Ελ°ϊ ΐ―ΉΒ		: pass
+//ν†µκ³Ό μ λ®¤		: pass
 
 #include <iostream>
 #include <vector>

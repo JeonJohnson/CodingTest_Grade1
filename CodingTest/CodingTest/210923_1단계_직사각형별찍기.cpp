@@ -1,12 +1,12 @@
-#include <iostream>
+ï»¿#include <iostream>
 //1905 start
 //1912 end
 //pass
 using namespace std;
 
 void printRect(int _iRow, int _iCol)
-{//Row ¼¼·Î °³¼ö 
-	//Col °¡·Î °³¼ö
+{//Row ì„¸ë¡œ ê°œìˆ˜ 
+	//Col ê°€ë¡œ ê°œìˆ˜
 
 	for (int i = 0; i < _iCol; ++i)
 	{

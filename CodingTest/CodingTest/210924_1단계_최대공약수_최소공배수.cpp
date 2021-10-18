@@ -1,6 +1,6 @@
-//Start Time	: 0730
+ï»¿//Start Time	: 0730
 //End Time		: 0808
-//Åë°ú À¯¹Â		: none
+//í†µê³¼ ìœ ë®¤		: none
 
 #include <iostream>
 #include <vector>
@@ -9,11 +9,11 @@ using namespace std;
 
 vector<int> solution(int n, int m)
 {
-	//ÃÖ´ë°ø¾à¼ö(GCD) ±¸ÇÏ´Â ¹ý -> ¼ÒÀÎ¼ö ºÐÇØ ÈÄ °øÅëµÈ ¼ÒÀÎ¼ö¸¦ °öÇÏ¸é µÊ.
-		//or À¯Å¬¸®µå È£Á¦¹ý »ç¿ë => Å«¼ö¿¡¼­ ÀÛÀº¼ö¸¦ ³ª´« ³ª¸ÓÁö¸¦ µû·Î º¸°üÇÑ µÚ
-		//¸ò¿¡¼­ ³ª¸ÓÁö¸¦ ³ª´²¼­ µü ¶³¾îÁú ¶§ ±îÁö ¹Ýº¹.
-	//ÃÖ¼Ò°ø¹è¼ö(LCM) ±¸ÇÏ´Â ¹ý -> ¼ÒÀÎ¼ö ºÐÇØ ÈÄ ¸ðµç ¼ÒÀÎ¼ö¸¦ °öÇÏ¸é µÊ.
-		//or µÎ¼öÀÇ °ö¿¡ ÃÖ´ë°ø¾à¼ö¸¦ ³ª´« ¸ò
+	//ìµœëŒ€ê³µì•½ìˆ˜(GCD) êµ¬í•˜ëŠ” ë²• -> ì†Œì¸ìˆ˜ ë¶„í•´ í›„ ê³µí†µëœ ì†Œì¸ìˆ˜ë¥¼ ê³±í•˜ë©´ ë¨.
+		//or ìœ í´ë¦¬ë“œ í˜¸ì œë²• ì‚¬ìš© => í°ìˆ˜ì—ì„œ ìž‘ì€ìˆ˜ë¥¼ ë‚˜ëˆˆ ë‚˜ë¨¸ì§€ë¥¼ ë”°ë¡œ ë³´ê´€í•œ ë’¤
+		//ëª«ì—ì„œ ë‚˜ë¨¸ì§€ë¥¼ ë‚˜ëˆ ì„œ ë”± ë–¨ì–´ì§ˆ ë•Œ ê¹Œì§€ ë°˜ë³µ.
+	//ìµœì†Œê³µë°°ìˆ˜(LCM) êµ¬í•˜ëŠ” ë²• -> ì†Œì¸ìˆ˜ ë¶„í•´ í›„ ëª¨ë“  ì†Œì¸ìˆ˜ë¥¼ ê³±í•˜ë©´ ë¨.
+		//or ë‘ìˆ˜ì˜ ê³±ì— ìµœëŒ€ê³µì•½ìˆ˜ë¥¼ ë‚˜ëˆˆ ëª«
 
 	vector<int> answer;
 	
@@ -76,7 +76,7 @@ vector<int> solution(int n, int m)
 #pragma endregion 
 
 #pragma region ReferenceSolution
-	//Ã³À½¿¡´Â µÎ ¼ö¸¦ ¼­·Î ³ª´²¾ßÇÔ.
+	//ì²˜ìŒì—ëŠ” ë‘ ìˆ˜ë¥¼ ì„œë¡œ ë‚˜ëˆ ì•¼í•¨.
 	int LargeInt = n;
 	int SmallInt = m;
 	if (m > n)
@@ -92,12 +92,12 @@ vector<int> solution(int n, int m)
 
 		if (r == 0)
 		{
-			//³ª¸ÓÁö°¡ 0ÀÌ µÇ¸é Á÷ÀüÀÇ ³ª¸ÓÁö°¡ ÃÖ´ë°ø¾à¼ö
+			//ë‚˜ë¨¸ì§€ê°€ 0ì´ ë˜ë©´ ì§ì „ì˜ ë‚˜ë¨¸ì§€ê°€ ìµœëŒ€ê³µì•½ìˆ˜
 			GCD = SmallInt;
 			break;
 		}
 
-		//0ÀÌ ¾Æ´Ò °æ¿ì ÀÌÀüÀÇ ³ª¸ÓÁö¿¡´Ù°¡ ³ª´²ÁÜ.
+		//0ì´ ì•„ë‹ ê²½ìš° ì´ì „ì˜ ë‚˜ë¨¸ì§€ì—ë‹¤ê°€ ë‚˜ëˆ ì¤Œ.
 		LargeInt = SmallInt;
 		SmallInt = r;
 	}

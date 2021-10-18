@@ -1,8 +1,8 @@
-//Start Time	: 2140
+ο»Ώ//Start Time	: 2140
 //pause time	: 2202
 //puase canceltime : 2214
-//End Time		: 2219 (25ΊΠ)
-//Ελ°ϊ ΐ―ΉΒ		: pass
+//End Time		: 2219 (25λ¶„)
+//ν†µκ³Ό μ λ®¤		: pass
 
 #include <iostream>
 #include <vector>
