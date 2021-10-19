@@ -28,6 +28,9 @@
     <Filter Include="211018">
       <UniqueIdentifier>{d953a59f-f43f-4ca1-8df2-2ee618032dde}</UniqueIdentifier>
     </Filter>
+    <Filter Include="211019">
+      <UniqueIdentifier>{3f825e0f-03ac-4ef9-a3bc-ea372e9d019d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="소스.cpp">
@@ -86,6 +89,18 @@
     </ClCompile>
     <ClCompile Include="211018_1단계_수박수박수박수.cpp">
       <Filter>211018</Filter>
+    </ClCompile>
+    <ClCompile Include="211019_1단계_소수찾기.cpp">
+      <Filter>211019</Filter>
+    </ClCompile>
+    <ClCompile Include="211019_1단계_서울에서 김서방 찾기.cpp">
+      <Filter>211019</Filter>
+    </ClCompile>
+    <ClCompile Include="211019_1단계_문자열 다루기 기본.cpp">
+      <Filter>211019</Filter>
+    </ClCompile>
+    <ClCompile Include="211019_1단계_문자열내림차순.cpp">
+      <Filter>211019</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
