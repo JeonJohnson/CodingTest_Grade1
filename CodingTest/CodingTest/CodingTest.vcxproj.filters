@@ -31,6 +31,9 @@
     <Filter Include="211019">
       <UniqueIdentifier>{3f825e0f-03ac-4ef9-a3bc-ea372e9d019d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="211102_화">
+      <UniqueIdentifier>{db6c30df-ab95-4eb5-b15e-31d99b6538c9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="소스.cpp">
@@ -101,6 +104,15 @@
     </ClCompile>
     <ClCompile Include="211019_1단계_문자열내림차순.cpp">
       <Filter>211019</Filter>
+    </ClCompile>
+    <ClCompile Include="211102_1단계_문자열내 P와 Y의개수.cpp">
+      <Filter>211102_화</Filter>
+    </ClCompile>
+    <ClCompile Include="211102_1단계_문자열 내 마음대로 정렬하기.cpp">
+      <Filter>211102_화</Filter>
+    </ClCompile>
+    <ClCompile Include="211102_1단계_두 정수 사이의 합.cpp">
+      <Filter>211102_화</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
