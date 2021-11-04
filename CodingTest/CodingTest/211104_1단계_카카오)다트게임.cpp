@@ -1,12 +1,13 @@
-﻿//Start Time	: 1220
-//End Time		:
-//통과 유뮤		: 1320에 1트 실패
+﻿//Start Time	: 211103 1200	| 211104 1850
+//End Time		: 211103 1230	| 211104 1913
+//통과 유뮤		: 211103 불통	| 211104 통과
 
 #include <iostream>
 #include <vector>
 #include <string>
 #include <algorithm>
 #include <functional>
+#include <math.h>
 
 using namespace std;
 
@@ -134,11 +135,95 @@ int MySolution2(string dartResult)
 {
 	int answer = 0;
 
+	int iCount = 3;
+	string* szTemp = new string[iCount];
+	int*	iScoreArr = new int[iCount];
+	memset(iScoreArr, 0, sizeof(int)*iCount);
+	int	iCurCount = 0;
+
+	bool IsNext = false;
+
+	for (int i = 0; i < (int)dartResult.length(); ++i)
+	{
+		if (IsNext == true &&
+			dartResult[i] >= '0' && dartResult[i] <= '9')
+		{
+			++iCurCount;
+			IsNext = false;
+		}
+
+		if (IsNext == false &&
+			dartResult[i] >= 'A' && dartResult[i] <= 'Z')
+		{
+			IsNext = true;
+		}
+
+		szTemp[iCurCount] += dartResult[i];
+	}
+
+	for (int i = 0; i < iCount; ++i)
+	{
+		
+		iScoreArr[i] = stoi(szTemp[i]);
+
+		for (int k = 0; k < (int)szTemp[i].length(); ++k)
+		{
+			if (szTemp[i][k] >= '0' && szTemp[i][k] <= '9')
+			{
+				continue;
+			}
+
+			switch ((int)szTemp[i][k])
+			{
+			case (int)'D':
+			{
+				iScoreArr[i] = pow(iScoreArr[i], 2);
+			}
+			break;
+
+			case (int)'T':
+			{
+				iScoreArr[i] = pow(iScoreArr[i], 3);
+			}
+			break;
+
+			case (int)'*':
+			{
+				iScoreArr[i] *= 2;
+
+				if (i >= 1)
+				{
+					iScoreArr[i - 1] *= 2;
+				}
+			}
+			break;
+
+			case (int)'#':
+			{
+				iScoreArr[i] *= -1;
+			}
+			break;
+
+			default:
+				break;
+			}
+		}
+
+	}
+
+	for (int i = 0; i < iCount; ++i)
+	{
+		answer += iScoreArr[i];
+	}
+
+	delete[] iScoreArr;
+	delete[] szTemp;
+
 	return answer;
 }
 void main()
 {
-	MySolution1("1S2D*3Y");
+	MySolution2("1S*2T*3S");
 
 	system("pause");
 } 

@@ -37,6 +37,9 @@
     <Filter Include="211103_수">
       <UniqueIdentifier>{41dc5b2a-0fed-416a-97ef-77a3938dd92b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="211104_목">
+      <UniqueIdentifier>{b42cd321-f2f5-4984-9c12-cfdcb0998733}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="소스.cpp">
@@ -123,11 +126,17 @@
     <ClCompile Include="211103_1단계_같은 숫자는 싫어.cpp">
       <Filter>211103_수</Filter>
     </ClCompile>
-    <ClCompile Include="211103_1단계_다트게임.cpp">
-      <Filter>211103_수</Filter>
-    </ClCompile>
     <ClCompile Include="211103_1단계_가운데 글자 가져오기.cpp">
       <Filter>211103_수</Filter>
+    </ClCompile>
+    <ClCompile Include="211104_1단계_카카오%29다트게임.cpp">
+      <Filter>211104_목</Filter>
+    </ClCompile>
+    <ClCompile Include="211104_1단계_부족한 금액 계산하기.cpp">
+      <Filter>211104_목</Filter>
+    </ClCompile>
+    <ClCompile Include="211104_1단계_나머지가 1이 되는 수 찾기.cpp">
+      <Filter>211104_목</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
