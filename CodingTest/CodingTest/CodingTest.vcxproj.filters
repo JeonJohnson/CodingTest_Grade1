@@ -40,6 +40,9 @@
     <Filter Include="211104_목">
       <UniqueIdentifier>{b42cd321-f2f5-4984-9c12-cfdcb0998733}</UniqueIdentifier>
     </Filter>
+    <Filter Include="211105_금">
+      <UniqueIdentifier>{4b70cfe3-76c2-4907-aec3-7435b639f165}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="소스.cpp">
@@ -137,6 +140,15 @@
     </ClCompile>
     <ClCompile Include="211104_1단계_나머지가 1이 되는 수 찾기.cpp">
       <Filter>211104_목</Filter>
+    </ClCompile>
+    <ClCompile Include="211105_1단계_최소직사각형.cpp">
+      <Filter>211105_금</Filter>
+    </ClCompile>
+    <ClCompile Include="211105_1단계_2016.cpp">
+      <Filter>211105_금</Filter>
+    </ClCompile>
+    <ClCompile Include="211105_1단계_카카오%29비밀지도.cpp">
+      <Filter>211105_금</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
