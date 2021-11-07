@@ -43,6 +43,9 @@
     <Filter Include="211105_금">
       <UniqueIdentifier>{4b70cfe3-76c2-4907-aec3-7435b639f165}</UniqueIdentifier>
     </Filter>
+    <Filter Include="211106_일">
+      <UniqueIdentifier>{4a599e8f-b302-4dfc-bfae-35fd09284feb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="소스.cpp">
@@ -149,6 +152,15 @@
     </ClCompile>
     <ClCompile Include="211105_1단계_카카오%29비밀지도.cpp">
       <Filter>211105_금</Filter>
+    </ClCompile>
+    <ClCompile Include="211106_일_두 개 뽑아서 더하기.cpp">
+      <Filter>211106_일</Filter>
+    </ClCompile>
+    <ClCompile Include="211106_일_예산.cpp">
+      <Filter>211106_일</Filter>
+    </ClCompile>
+    <ClCompile Include="211106_일_3진법 뒤집기.cpp">
+      <Filter>211106_일</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
