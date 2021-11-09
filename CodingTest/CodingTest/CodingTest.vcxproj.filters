@@ -49,6 +49,9 @@
     <Filter Include="211107_월">
       <UniqueIdentifier>{68ef4479-4c4a-4020-abbe-ea6bfa9b1cdc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="211108_화">
+      <UniqueIdentifier>{247844c8-ab15-44c4-badb-a880325cfea3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="소스.cpp">
@@ -173,6 +176,15 @@
     </ClCompile>
     <ClCompile Include="211107_월_포킷몬.cpp">
       <Filter>211107_월</Filter>
+    </ClCompile>
+    <ClCompile Include="211108_화_모의고사.cpp">
+      <Filter>211108_화</Filter>
+    </ClCompile>
+    <ClCompile Include="211108_화_K번째 수.cpp">
+      <Filter>211108_화</Filter>
+    </ClCompile>
+    <ClCompile Include="211108_화_체육복_Greedy.cpp">
+      <Filter>211108_화</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
