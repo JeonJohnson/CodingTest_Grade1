@@ -1,4 +1,7 @@
-﻿  211108_화_K번째 수.cpp
-e:\학업\codingtest_grade1\codingtest\codingtest\211108_화_k번째 수.cpp(19): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+﻿  211110_수_소수만들기.cpp
+e:\학업\codingtest_grade1\codingtest\codingtest\211110_수_소수만들기.cpp(19): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+e:\학업\codingtest_grade1\codingtest\codingtest\211110_수_소수만들기.cpp(22): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+e:\학업\codingtest_grade1\codingtest\codingtest\211110_수_소수만들기.cpp(24): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+e:\학업\codingtest_grade1\codingtest\codingtest\211110_수_소수만들기.cpp(27): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   CodingTest.vcxproj -> E:\학업\CodingTest_Grade1\CodingTest\Debug\CodingTest.exe
   CodingTest.vcxproj -> E:\학업\CodingTest_Grade1\CodingTest\Debug\CodingTest.pdb (Partial PDB)
