@@ -55,6 +55,9 @@
     <Filter Include="211110_수">
       <UniqueIdentifier>{6101a5d4-969a-4c61-994b-0030b16f0c36}</UniqueIdentifier>
     </Filter>
+    <Filter Include="211112_금">
+      <UniqueIdentifier>{20642fa2-833b-4505-b860-8a129f8b0075}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="소스.cpp">
@@ -200,6 +203,15 @@
     </ClCompile>
     <ClCompile Include="211110_수_음양 더하기.cpp">
       <Filter>211110_수</Filter>
+    </ClCompile>
+    <ClCompile Include="211112_금_없는숫자더하기.cpp">
+      <Filter>211112_금</Filter>
+    </ClCompile>
+    <ClCompile Include="211112_금_크레인 인형뽑기.cpp">
+      <Filter>211112_금</Filter>
+    </ClCompile>
+    <ClCompile Include="211112_금_키패드 누르기.cpp">
+      <Filter>211112_금</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
