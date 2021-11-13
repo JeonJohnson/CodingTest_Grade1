@@ -58,6 +58,9 @@
     <Filter Include="211112_금">
       <UniqueIdentifier>{20642fa2-833b-4505-b860-8a129f8b0075}</UniqueIdentifier>
     </Filter>
+    <Filter Include="211113_토">
+      <UniqueIdentifier>{bffb25c2-c26a-4c0d-86eb-374e2f80129b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="소스.cpp">
@@ -212,6 +215,15 @@
     </ClCompile>
     <ClCompile Include="211112_금_키패드 누르기.cpp">
       <Filter>211112_금</Filter>
+    </ClCompile>
+    <ClCompile Include="211113_토_숫자 문자열과 영단어.cpp">
+      <Filter>211113_토</Filter>
+    </ClCompile>
+    <ClCompile Include="211113_토_숫자 신규 아이디 추천.cpp">
+      <Filter>211113_토</Filter>
+    </ClCompile>
+    <ClCompile Include="211113_토_로또의 최고 순위와 최저 순위.cpp">
+      <Filter>211113_토</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
